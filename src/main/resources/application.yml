@@ -14,4 +14,4 @@ spring:
       on-profile: docker
   redis:
     host: redis
-    port: 6380
+    port: 6379
