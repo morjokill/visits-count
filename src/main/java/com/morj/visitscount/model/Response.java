@@ -6,7 +6,7 @@ import lombok.Data;
 @AllArgsConstructor
 @Data
 public class Response {
-    private String requestMethod;
+    private String method;
     private String description;
-    private long count;
+    private String value;
 }
