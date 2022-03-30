@@ -5,6 +5,8 @@ services:
     ports:
       - "6380:6379"
   visits:
+    depends_on:
+      - redis
     build:
       dockerfile: Dockerfile
     ports:
