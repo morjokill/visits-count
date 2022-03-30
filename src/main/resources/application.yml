@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: docker
+  redis:
+    host: redis
+    port: 6380
