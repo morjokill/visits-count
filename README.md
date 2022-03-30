@@ -1,17 +1,15 @@
 # visits-count
 
-Visits counting redis demo application
-
-Demo project to learn Redis
+**Demo project to learn Redis**
 
 Run to deploy:
-docker-compose up
+`docker-compose up`
 
-Default application port is 8080
+Default application port is `8080`
 
-API:
-/time - last time visited from current IP address
-/ip - amount of times visited from current IP address
-/agent - amount of times visited from current 'User-Agent'
-/ - amount of times sent 'GET' requests
-POST / - amount of times sent 'POST' requests
+**API:** <br>
+`/time` - last time visited from current IP address <br>
+`/ip` - amount of times visited from current IP address <br>
+`/agent` - amount of times visited from current 'User-Agent' <br>
+`/` - amount of times sent 'GET' requests <br>
+`POST /` - amount of times sent 'POST' requests <br>
